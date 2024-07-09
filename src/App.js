@@ -1,4 +1,5 @@
 import React from 'react'
+//  react router dom
 import { Routes, Route } from 'react-router-dom'
 // pages
 import Home from "./pages/Home"
