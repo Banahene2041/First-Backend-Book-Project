@@ -14,8 +14,8 @@ const UpdateBook = () => {
       try {
         const resp = await axios.get(`http://localhost:5000/api/v1/books/${id}`)
         const data = resp.data.book
-        setTitle(data.author)
-        setAuthor(data.title)
+        setTitle(data.title)
+        setAuthor(data.author)
         setPublished(data.published_year)
       } catch (error) {
         console.log(error);
